@@ -1,0 +1,45 @@
+/*#home{*/
+    /*width: 100%;*/
+    /*color: #fff;*/
+    /*!* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 *!*/
+    /*background: #1e5799; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #7db9e8 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#7db9e8 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#7db9e8 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+/*}*/
+body{
+    font-weight: 500;
+
+}
+#home{
+    width: 100%;
+    color: #fff;
+    background: url("../media/map1.png");
+}
+.overlay{
+    background: url("../media/overlay2.png");
+}
+
+.brand-logo{
+    margin-left: 100px;
+}
+nav{
+    background: none;
+    box-shadow: none;
+}
+.home-nav-ul{
+    margin-right: 100px;
+}
+#home h1{
+    font-weight: 400;
+}
+#home h2{
+    font-size: 2rem;
+}
+#home-iphone{
+    width:50%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    transform: translateY(40px);
+}
