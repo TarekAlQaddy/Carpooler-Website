@@ -3,48 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>Carpooler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="vendor/css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 
-<section id="home">
-    <div class="overlay">
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="home-nav-ul right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Why Carpooler</a></li>
-                <li><a href="#">blabla</a></li>
-            </ul>
-            <ul class="side-nav" id="mobile">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Why Carpooler</a></li>
-                <li><a href="#">blabla</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="row content valign-wrapper">
-        <img src="media/tilted%20iphone.png" alt="" id="home-iphone">
-        <div class="center-align">
-            <div class="valign">
-                <h1>Carpooler</h1>
-                <h2>An Uber like app, but better</h2>
+    <section id="home" class="blue">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="home-nav-ul right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Why Carpooler</a></li>
+                    <li><a href="#">blabla</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Why Carpooler</a></li>
+                    <li><a href="#">blabla</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content valign-wrapper">
+            <a href="#" class="app-store"><img src="media/app-store.png" alt="" class="app-store-img"></a>
+            <div class="center-align text">
+                <div class="valign">
+                    <h1>Carpooler</h1>
+                    <h2>Tinder for your car</h2>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-</section>
+    </section>
+    <section id="about">
+        <div class="row valign-wrapper">
+            <div class="col m6 offset-m1">
+                <h3>Header here</h3>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus elit, maximus a nibh et, bibendum elementum orci.
+                    Vestibulum ac vestibulum nisl. Aliquam nec cursus massa. Suspendisse eget justo at neque scelerisque interdum vel ac mi.</h5>
+            </div>
+            <img src="media/iphone-home.png" class="m2 offset-m2 col">
+        </div>
+    </section>
+    <section id="how-it-works">
+        <h2 class="center-align">How It Works</h2>
+        <div id="sec1" class="row how-section valign-wrapper">
+            <div class="col m3 offset-m2">
+                <div id="iphone">
+                    <img id="screen1" src="media/iphone-screen1.png" class="screen" alt="">
+                    <img id="screen2" src="media/iphone-screen2.png" class="screen" alt="">
+                    <img id="screen3" src="media/iphone-screen3.png" class="screen" alt="">
+                </div>
+            </div>
+            <div class="col m4 offset-m1">
+                <h3>Head Here </h3>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus elit, maximus a nibh et, bibendum elementum orci.</h5>
+            </div>
+        </div>
+        <div id="sec2" class="row how-section valign-wrapper blue white-text">
+            <div class="col m4 offset-m6">
+                <h3>Head Here </h3>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus elit, maximus a nibh et, bibendum elementum orci.</h5>
+            </div>
+        </div>
+        <div id="sec3" class="row how-section valign-wrapper">
+            <div class="col m4 offset-m6">
+                <h3>Head Here </h3>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus elit, maximus a nibh et, bibendum elementum orci.</h5>
+            </div>
+        </div>
+    </section>
+    <section id="event-organizers" class="blue lighten-1">
+
+    </section>
 
 
 
 
-<!-- USE CDN IN PRODUCTION MODE -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="vendor/js/materialize.min.js"></script>
+    <!-- USE CDN IN PRODUCTION MODE -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+    <script src="vendor/js/materialize.min.js"></script>
+    <script src="vendor/js/ScrollMagic.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
