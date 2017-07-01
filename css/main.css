@@ -108,6 +108,18 @@ nav{
 }
 
 
-#event-organizers{
-    height: 500px;
+#why-carpooler{
+    padding: 40px 0;
+}
+
+#why-carpooler .white-box{
+    padding: 40px;
+    text-align: center;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#why-carpooler .white-box img{
+    width:50%;
 }
